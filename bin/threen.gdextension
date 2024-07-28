@@ -2,6 +2,7 @@
 
 entry_symbol = "threen_library_init"
 compatibility_minimum = "4.1"
+android_aar_plugin = true
 
 [icons]
 
@@ -17,3 +18,5 @@ windows.x86_64.debug = "res://bin/libthreen.windows.template_debug.x86_64.dll"
 windows.x86_64.release = "res://bin/libthreen.windows.template_release.x86_64.dll"
 macos.debug = "res://bin/libthreen.macos.template_debug.framework"
 macos.release = "res://bin/libthreen.macos.template_release.framework"
+android.debug.arm64 = "res://bin/libthreen.android.template_debug.arm64.so"
+android.release.arm64 = "res://bin/libthreen.android.template_release.arm64.so"
